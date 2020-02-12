@@ -1,0 +1,613 @@
+ul,ol,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,h7{margin: 0;padding: 0;}
+input{padding: 0;margin: 0;}
+a{text-decoration: none;color:#333;}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+a:hover{
+	color:#ff6767;
+}
+/*页面头部*/
+.top1{
+	height: 40px;
+	background:#333;
+	color:#999;
+	top: 0;
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	left: 0;
+	min-width: 990px;
+}
+.top1 .tleft{
+	height: 40px;
+}
+.top1 ul li{
+	float: left;
+	height: 40px;
+}
+.top1 ul li a{
+	font-size: 14px;
+	color:#ccc;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+.top1 ul li a.logo i{
+	display: block;
+	float: left;
+	width: 55px;
+	height: 14px;
+	margin: 13px 10px 0 0;
+	text-indent: -9999em;
+	background:url(../images/top-bar110.png) no-repeat scroll 0 0/55px auto;
+}
+.top1 ul li.la{
+	position: relative;
+	width: 30px;
+	cursor: pointer;
+}
+.top1 ul li.la i{
+	display: block;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	border: 4px dashed transparent;
+	border-top: 6px solid#ccc;
+	margin: 18px auto 0;
+}
+.top1 ul li.la div{
+	display: none;
+	background:#333;
+	left: -36px;
+	position: absolute;
+	text-align: center;
+	top: 40px;
+}
+.top1 ul li a:hover{
+	color:#fff;
+	background:#0D0D0D;
+}
+.top1 ul li.la:hover{
+	background:#0D0D0D;
+}
+.top1 ul li.la:hover div{
+	display: block;
+}
+.top1 .kehu{
+	display: block;
+	position: relative;
+	font-size: 10px;
+	color:
+	#f1f1f1;
+	width: 60px;
+	text-align: center;
+	line-height: 1em;
+	background:#FE5761;
+	float: right;
+	height: 100%;
+}
+.top1 .kehu img{
+	display: block;
+	margin: 4px auto 2px;
+}
+.top1 .kehu img.ma1{
+	display: none;
+	margin: 0;
+	position: absolute;
+	top: 45px;
+	right: 5px;
+	width: 100px
+}
+.top1 .kehu:hover img.ma1{
+	display: block;
+}
+.top1 .you{
+	position: relative;
+}
+.top1 .you li div.qq{
+	width: auto;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	z-index: 199011;
+	cursor: pointer;
+}
+.top1 .you li div.qq a{
+	display: block;
+	line-height: 1em;
+	font-size: 10px;
+	width: 60px;
+	text-align: center;
+	height: 40px;
+	float: right;
+	color: #eee;
+}
+.top1 .you li div img{
+	display: block;
+	margin: 4px auto 2px;
+}
+.top1 .you li div.fa{
+	background:#59C3D1;
+	color:#f1f1f1;
+	width: 60px;
+	line-height: 1em;
+	font-size: 10px;
+	padding: 0;
+	text-align: center;
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+	z-index: 199011;
+	cursor: pointer;
+}
+/*页身部分*/
+/*页身1*/
+.body1{
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: visible;
+	padding-top: 50px;
+	height: 65px;
+	margin: auto;
+	width: 990px;
+}
+.body1 .logo_1{
+	background: url(../images/logos.png) no-repeat scroll left center/108px auto ;
+	width:108px;
+}
+.body1 .logo_1 a{
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	text-indent: -9999em;
+}
+.body1 .logo_2{
+	height: 30px;
+	line-height: 30px;
+	margin: 15px 0 0 10px;
+	padding: 0 0 0 10px;
+}
+.body1 .logo_2 h1{
+	font-size: 100%;
+	font-weight: 400;
+}
+.body1 .logo_2 h1 a{
+	background:#FF838B;
+	border-radius: 5px;
+	color:#fff;
+	display: block;
+	font-size: 20px;
+	padding: 0 10px;
+}
+.body1 .sousuo{
+	padding-top: 18.5px;
+}
+#sou{
+	display:inline-block;
+	border-radius: 0 3px 3px 0;
+	width: 80px;
+	height: 28px;
+	font-size: 14px;
+	color:#fff;
+	text-indent: 35px;
+	float: right;
+	line-height: 28px;
+	background: #999 url(../images/search.png) no-repeat scroll 12px center/16px auto;
+}
+#soup{
+	width: 160px;
+	border: 1px solid#ccc;
+	border-right: none;
+	border-radius: 3px 0 0 3px;
+	height: 20px;
+	line-height: 20px;
+	padding: 3px;
+	float: right;
+}
+.body1 .daohang{
+	float: right;
+	padding: 0 40px 0 0;
+	height: 60px;
+}
+.body1 .daohang a.on{
+	color: #ff6767;
+}
+.body1 .daohang a{
+	position: relative;
+	float: left;
+	padding: 0 10px 5px;
+	font-size: 20px;
+	line-height: 60px;
+}
+.body1 .daohang a.on i{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border: 9px dashed
+	transparent;
+	border-bottom: 9px solid #ff6767;
+}
+.body1 .daohang a.on b{
+	position: absolute;
+	bottom: -1.3px;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	overflow: hidden;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border: 9px dashed
+	transparent;
+	border-bottom: 9px solid #fff;
+}
+/*页身2*/
+.body2{
+	height: 34px;
+	border-bottom: 1px solid#ff6767;
+	border-top: 1px solid#ff6767;
+	margin: auto;
+	width: 990px;
+}
+.body2 li{
+	float:left;
+	padding: 0 10px;
+}
+.body2 li a.on{
+	color: #ff6767;
+}
+.body2 li a{
+	display: block;
+	padding: 0 3px;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+.body2 li.quan i{
+	position: absolute;
+	top: 15px;
+	right: 6px;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	border: 4px dashed
+	transparent;
+	border-top: 6px solid #333;
+}
+.body2 li.quan b{
+
+	position: absolute;
+	top: 15px;
+	right: 6px;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	border: 4px dashed
+	transparent;
+	top: 13px;
+	border-top: 6px solid #fff;
+}
+.body2 li.quan{
+	float: right;
+	position: relative;
+}
+.body2 li.quan .yin_1{
+	display: none;
+	background:#fff;
+	width: 990px;
+	position: absolute;
+	right: 0;
+	top: 35px;
+	z-index: 50;
+	box-shadow: 0 2px 3px #ddd;
+	overflow: hidden;
+}
+.body2 li.quan .yin_1 h5{
+	padding: 15px 3px 0;
+	width: 100%;
+	font-weight: 700;
+	clear: both;
+}
+.body2 li.quan .yin_1 div{
+	float: left;
+	width: 15%;
+	margin: 0 .8%;
+	padding: 0 0 10px
+}
+;
+.body2 li.quan .yin_1 ul{
+	float: left;
+	margin: 0 0 10px;
+}
+.body2 li.quan .yin_1 ul li{
+	float: left;
+	line-height: 160%;
+	width: 47%;
+	padding: 0;
+}
+.body2 li.quan .yin_1 ul li a{
+	color:#333;
+	font-size: 12px;
+	line-height: 28px;
+	height: 28px;
+	display: block;
+	padding: 0 3px;
+}
+/*页身主要内容*/
+.body3{
+	background-color:#fff;
+	padding: 10px 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.body3 .tubiao{
+	height: 77.4px;
+	margin-top: 20px;
+}
+.body3 .tubiao a{
+	display:inline-block;
+	float: left;
+	width: 99px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+.body3 .tubiao a img{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto 5px;
+	background:#f2f2f2 url(//static.meishichina.com/v6/img/loading-16-16.gif) no-repeat scroll center center;
+	border-radius: 50%;
+}
+.body3 .fen2{
+	height: 34px;
+	line-height: 30px;
+	font-size: 20px;
+	margin: 30px 0 0 0;
+}
+.body3 .fen2 .on{
+	color:#ff6767;
+	border-bottom: 3px solid #ff6767;
+}
+.body3 .fen2 h3{
+	float: left;
+	font-weight: 400;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+	color: #666;
+	padding-bottom: 4px;
+	outline: 0;
+	color: #333;
+	max-width: 100%;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.xiangtu{
+	width: 100%;
+	margin-top: 10px;
+}
+.xiangtu ul{
+	display: block;
+	width: 1040px;
+}
+.xiangtu ul li{
+	float: left;
+	margin: 0 23px 0 0;
+	text-align: center;
+	width: 230px;
+	height: 305px;
+	overflow: hidden;
+}
+.xiangtu ul li .tu{
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	position: relative;
+}
+.xiangtu ul li .tu img{
+	width: 230px;
+	height: 230px;
+	transition: all .5s ease-in-out;
+}
+.xiangtu ul li .tu img:hover{
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+}
+.xiangtu ul li .tu p{
+	font-size: 18px;
+	line-height: 120%;
+	padding: 8px 0 2px;
+}
+.xiangtu ul li .dian{
+	margin: auto;
+	color:#999;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.jia{
+	height: 44px;
+	line-height: 44px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.jia a{
+	display: block;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	color:#ff6767;
+	background-color:#f8f8f8;
+	outline: 0;
+	user-select: none;
+	cursor: pointer;
+	transition: color .3s ease-in-out .3s,background-color .3s ease-in-out .3s;
+}
+.jia a:hover{
+	background-color:#ff6767;
+	color: #fff;
+}
+.buttom{
+	padding: 10px 0;
+}
+.buttom .w{
+	padding-top: 10px;
+	border-top: 1px solid#e8e8e8;
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.buttom .w .f1{
+	clear: none;
+	float: left;
+	font-size: 11px;
+	color:
+	#666;
+	width: 680px;
+	padding-top: 10px;
+}
+.buttom .w .f1 p.a{
+	color:#c90;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+.buttom .w .f1 p.b{
+	color:#aaa;
+	font-size: 12px;
+	margin-bottom: 6px;
+}
+.buttom .w .f1 p.c{
+	
+}
+.buttom .w .f2{
+	clear: none;
+	float: right;
+	text-align: center;
+}
+.buttom .w .f2 img{
+	display: block;
+	background:#f8f8f8;
+}
+.buttom .w .f3{
+	margin: 0 25px;	
+	clear: none;
+	float: right;
+	text-align: center;
+}
+.buttom .w .f3 img{
+	display: block;
+	background:#f8f8f8;
+}
+
+
+
+
+/*菜单分类*/
+.fenlei{
+	margin: 0 0 30px 0;
+	width: 100%;
+	overflow: hidden;
+	background:#f8f8f8;
+	position: relative;
+	border-top: 1px solid#EAEAEA;
+	border-bottom: 1px solid#EAEAEA;
+}
+.fenlei h3{
+	float: left;
+	font-size: 24px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: -20px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 186px;
+	color:#666;
+}
+.fenlei ul{
+	width: 804px;
+	float: right;
+	background:#fff;
+	margin-bottom: -1px;
+	overflow: hidden;
+}
+.fenlei ul li{
+	float: left;
+	position: relative;
+}
+.fenlei ul li a{
+	float: left;
+	height: 70px;
+	line-height: 64px;
+	width: 133px;
+	border-left: 1px solid
+	#EAEAEA;
+	border-bottom: 1px solid
+	#EAEAEA;
+	font-size: 20px;
+	color:
+	#333;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fen2 h3{
+	 cursor: pointer;
+}
+.dingbu{
+	left: 1215px;
+	right: auto;
+	bottom: 10px;
+	position: fixed;
+	z-index: 102410;
+	height: 58px;
+}
+.dingbu .topsss{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 58px;
+	height: 58px;
+	background: url(//static.meishichina.com/v6/img/wap_a/gotop.png) no-repeat scroll center center/58px 58px;
+}

@@ -1,0 +1,103 @@
+.kuaixun{
+	font-weight: 700;
+}
+.shiping{
+	position: relative;
+	width: 1200px;
+	min-height: 800px;
+	margin: 20px auto;
+}
+.shiping .ping{
+	height: 3351px;
+	width: 100%;
+	margin: 0 auto;
+}
+.shiping .ping .s1{
+	padding-right: 10px;
+	float:left;
+	width: 285px;
+	float: left;
+}
+.shiping .ping .s1 .zu{
+	position: relative;
+	background:
+	#eee;
+	width: 285px;
+	height: 160px;
+	cursor: pointer;
+}
+.shiping .ping .s1 .zu .zutu{
+	width: 285px;
+	height: 160px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.shiping .ping .s1 .zu span{
+	position: absolute;
+	left: 122px;
+	top: 59px;
+}
+.shiping .ping .s1 .zu span img{
+	width: 42px;
+	height: 42px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.shiping .ping .s1 h5{
+	padding: 8px 15px;
+	font-size: 16px;
+	color:#212121;
+	font-weight: 700;
+	line-height: 25px;
+	text-align: justify;
+}
+.shiping .ping .s1 .jie{
+	width: 253px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	color:
+	#757575;
+	line-height: 22px;
+	border-bottom: 1px
+	#e8e8e8 solid;
+	margin: 0 auto;
+	text-align: justify;
+}
+.shiping .ping .s1 .di{
+	width: 253px;
+	height: 45px;
+	line-height: 45px;
+	margin: 0 auto;
+}
+.shiping .ping .s1 .di p{
+	float: left;
+	font-size: 14px;
+	color:#bdbdbd;
+}
+.shiping .ping .s1 .di p span{
+	margin: 0 5px 0 15px;
+}
+.shiping .ping .s1 .di .di1{
+	background: url(https://www.huoxing24.com/img/video/comment-img-072d43e84f.png) no-repeat;
+	background-position: 0 16px;
+}
+.shiping .ping .s1 .di .di2{
+	margin-left: 20px;
+	background: url(https://www.huoxing24.com/img/video/eye-857ac14579.png) no-repeat;
+	background-position: 0 14px;
+}
+.shiping .ping .s1 .di .di3{
+	float: right;
+}
+.duo5{
+	width: 155px;
+	height: 40px;
+	border: 1px #0b7ff2 solid;
+	color:#0b7ff2;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	margin: 40px auto;
+	cursor: pointer;
+}
